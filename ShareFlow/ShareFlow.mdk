@@ -1,10 +1,10 @@
 [INCLUDE=presentation]
-Title         : Demo presentation in Madoko
-Sub Title     : In both HTML and PDF
-Author        : Daan Leijen
-Affiliation   : Microsoft Research
-Email         : daan@microsoft.com
-Reveal Theme  : sky
+Title         : 程序员的“shareflow”
+Sub Title     : 用madoko构建一个自己的分享流
+Author        : Wilberway
+Affiliation   : Boyaa Interactive
+Email         : WilberWei@boyaa.com
+Reveal Theme  : serif
 Beamer Theme  : singapore
 
 [TITLE]
