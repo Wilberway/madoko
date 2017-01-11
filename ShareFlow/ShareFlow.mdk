@@ -1,6 +1,6 @@
 [INCLUDE=presentation]
-Title         : 程序员的“shareflow”
-Sub Title     : 用madoko构建一个自己的分享流
+Title         : A programmer's Shareflow
+Sub Title     : Markdown, Reveal.js and Madoko
 Author        : Wilberway
 Affiliation   : Boyaa Interactive
 Email         : WilberWei@boyaa.com
@@ -13,20 +13,38 @@ Beamer Theme  : singapore
 
 [TOC]
 
-# Madoko Presentation
+# what is shareflow?
 
-Using [Madoko] it is easy to create beautiful presentations.
+* How to share?
 
-* [Html][slide]:
-  Uses the `Reveal.js` library by [Hakim El Hattab](http://hakim.se).\
-  This slide demo in Madoko is an adaption of his online demo.
-* [Pdf][slide-pdf]:
-  Uses the `Beamer` package for LaTeX
-* [Source][slide-mdk]:
-  Click to see the source of this presentation.
+* write, show, talk 
 
+* To many programmers, they have only code.
 
-[madoko]: http://madoko.codeplex.com
+* Can code do any things we want?
+
+# Yes
+
+### Imposible is nothing
+
+# Write
+
+## markdown
+
+Markdown is a lightweight markup language with plain text formatting syntax designed so that it can be converted to HTML and many other formats using a tool by the same name.
+
+## how to write a markdown doc?
+
+some important symbols:
+
+\#, \#\#, \#\#, \*\***bold**\*\*, \**italic*\*, > quotation , \``code`\`, \$$e = mc^2$\$ ,
+
+## it's so easy
+
+###You begin to use it, you master it.
+
+##
+
 
 ## Reveal.js
 
