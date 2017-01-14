@@ -1,6 +1,6 @@
 [INCLUDE=presentation]
 Title         : A programmer's Shareflow
-Sub Title     : Markdown, Reveal.js and Madoko
+Sub Title     : Markdown, Madoko and Reveal.js 
 Author        : Wilberway
 Affiliation   : Boyaa Interactive
 Email         : WilberWei@boyaa.com
@@ -23,18 +23,18 @@ Beamer Theme  : singapore
 
 * Can code do any things we want?
 
-# Yes
+## Yes
 
 ### Imposible is nothing
 
+## To a programmer
 
-## We can only focus on our content without considering  interface，artwork, interaction and layout. 
-
-### We shouldn't bog down over these elementaries.
+We should only focus on our content without considering  interface，artwork, interaction and layout.
+ ~ We shouldn't bog down over these factors.
 
 # Write
 
-## markdown
+## Markdown
 
 Markdown is a lightweight markup language with plain text formatting syntax designed so that it can be converted to HTML and many other formats using a tool by the same name.
 
@@ -50,12 +50,49 @@ some important symbols:
 
 ## Markdown Syntax Documentation
 
-[John Gruber's Markdown Syntax Documentation] 
+* [John Gruber's Markdown Syntax Documentation] 
 [John Gruber's Markdown Syntax Documentation]: http://daringfireball.net/projects/markdown/syntax
 
-[chinese documentation]
-[chinese documentation]: http://wowubuntu.com/markdown/#list
+* [Chinese documentation]
+[Chinese documentation]: http://wowubuntu.com/markdown/#list
 
+~ Begin Vertical
+
+## Markdown Editor{#vertical}
+
+* Cmd Markdown
+
+* Typora
+
+* Madoko
+
+* Others
+
+## Cmd Markdown
+
+* Special for Chinese
+
+* Easy to insert pictures (￥99 per year)
+
+## Typora
+
+* WYSIWYG 
+
+* Minimalist design
+
+## Madoko
+
+* Link to your Github account
+
+* Integrate Reveal.js to make slides
+
+## Ohters
+
+<https://www.zhihu.com/question/19637157>
+
+~ End Vertical
+
+# Show
 
 ## Reveal.js
 
