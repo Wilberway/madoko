@@ -27,6 +27,11 @@ Beamer Theme  : singapore
 
 ### Imposible is nothing
 
+
+## We can only focus on our content without considering  interface，artwork, interaction and layout. 
+
+### We shouldn't bog down over these elementaries.
+
 # Write
 
 ## markdown
@@ -43,7 +48,13 @@ some important symbols:
 
 ###You begin to use it, you master it.
 
-##
+## Markdown Syntax Documentation
+
+[John Gruber's Markdown Syntax Documentation] 
+[John Gruber's Markdown Syntax Documentation]: http://daringfireball.net/projects/markdown/syntax
+
+[chinese documentation]
+[chinese documentation]: http://wowubuntu.com/markdown/#list
 
 
 ## Reveal.js
