@@ -1,5 +1,5 @@
 [INCLUDE=presentation]
-Title         : A programmer's Shareflow
+Title         : A Programmer's Shareflow
 Sub Title     : Markdown, Madoko and Reveal.js 
 Author        : Wilberway
 Affiliation   : Boyaa Interactive
@@ -113,6 +113,8 @@ its full glory.
 * Give it a try at [https://slides.com.]
 [https://slides.com.]: https://slides.com.
 
+
+
 ## Use
 Here is a basic demo.
 
@@ -136,6 +138,16 @@ Here is a basic demo.
     </body>
 </html>
 ```
+## markdown demo
+```html
+<section data-markdown>
+    <script type="text/template">
+        ## Page title
+
+        A paragraph with some text and a [link](http://hakim.se).
+    </script>
+</section>
+```
 
 ~ End Vertical
 
@@ -150,59 +162,6 @@ function sqr( x ) {
 }
 ```
 We used `\(` and `\)` to escape into markdown to write &pi;.
-
-<!-- Example of nested vertical slides -->
-~ Begin Vertical { data-background:Gainsboro }
-
-## Vertical Slides {#vertical}
-Slides can be nested inside of other slides,
-try pressing [down].
-
-[![arrowdown]][down]
-
-
-[down]: # { .navigate-down }
-[arrowdown]: images/arrow.png "Down arrow" { width:178px; height:238px }
-
-## Basement Level 1
-Press down or up to navigate.
-
-## Basement Level 2
-
-Use `columns` to put blocks next to each other:
-
-~ Begin Columns
-~ Column { width:50% }
-A monarch butterfly (shown to the right)
-spends the winter in Mexico.
-~
-~ Column
-![butterfly]
-~
-~ End Columns
-
-[butterfly]: images/butterfly.png "A Monarch butterfly" { width:280px; vertical-align:middle }
-
-
-<!-- 
-For local background images, we need to have a reference to the image
-such that it's data gets embedded into the HTML page. We define
-it using "display=none" so it is hidden in the presentation. 
-We can then refer to the image in "data-background-image". 
--->
-
-![bfly]
-[bfly]: images/butterfly.png "Butterfly" { display:none }
-
-## Basement Level 3 { data-background-image:images/butterfly.png }
-That's it, time to go back up.
-
-[![arrowup]][back2]
-
-[arrowup]:  images/arrow.png "Up arrow" { width:178px; height:238px; transform:rotate(180deg) }
-[back2]:    #vertical { .image }
-
-~ End Vertical
 
 
 ## Themes {#themes}
@@ -234,28 +193,6 @@ You can select from different transitions, like:\
 [None](?transition=none#/transitions) -
 [Default](?#/transitions)
 
-
-
-## Pauses?
-
-Some pauses.
-
-* {.fragment} One
-* {.fragment} Two
-* {.fragment} Three
-
-And more:
-
-- Test 1
-- Test 2
-- Test 3
-{.fragmented}
-
-Cool!.
-
-~ Slide
-A slide with no header
-~
 
 
 ## Point of View
