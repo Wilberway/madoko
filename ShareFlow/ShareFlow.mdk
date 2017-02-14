@@ -206,6 +206,8 @@ Hold down alt and click on any element to zoom in on it using
 [zoom.js]: http://lab.hakim.se/zoom-js
 
 
+<!-- begin merge (remove this line to resolve the conflict) -->
+~ Begin Remote
 ## Works in Mobile Device
 
 Try it out! 
@@ -213,6 +215,9 @@ Try it out!
 ![1]
 
 [1]: images/1.bmp "1" { width:auto; max-width:90% }
+~ End Remote
+## Works in Mobile Device
+<!-- end merge -->
 
 
 
@@ -225,18 +230,6 @@ presentation (in the browser address bar) and then print from the Chrome
 browser selecting `Save to PDF`.
 
 Read more about it at the [revealjs documentation](https://github.com/hakimel/reveal.js#pdf-export)
-
-## RevealJS library
-
-Normally, the `revealjs` library is loaded from a CDN but you can specify your
-own url using metadata:
-
-    Reveal Url: <my url>
-
-This can be useful when using a [server to run revealjs](https://github.com/hakimel/reveal.js#full-setup)
-where you may use something like:
-
-    @nopreview Reveal Url: http://localhost:8000/reveal.js
 
 
 ## Thanks for looking :-)
