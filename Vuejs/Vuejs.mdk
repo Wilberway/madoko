@@ -118,3 +118,36 @@ var app6 = new Vue({
 })
 ```
 
+## v-html
+
+> 输出html
+
+```html
+  <div v-html="rawHtml"></div>
+```
+
+## v-bind
+
+> 绑定HTML的属性，如果条件被求值为 false 的话该属性会被移除
+
+```html
+  <button v-bind:disabled="someDynamicCondition">Button</button>
+```
+
+## v-bind缩写
+
+```html
+<!-- 完整语法 -->
+<a v-bind:href="url"></a>
+<!-- 缩写 -->
+<a :href="url"></a>
+```
+
+## v-on缩写
+
+```html
+<!-- 完整语法 -->
+<a v-on:click="doSomething"></a>
+<!-- 缩写 -->
+<a @click="doSomething"></a>
+```
